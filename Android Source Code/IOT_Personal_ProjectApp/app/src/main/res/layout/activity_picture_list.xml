@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".PictureListActivity">
+
+    <ListView
+        android:id="@+id/picture_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.93"
+        android:background="#8F8F8F" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.07"
+        android:gravity="center"
+        android:minWidth="40dp">
+
+        <ImageButton
+            android:id="@+id/page_before"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:background="@drawable/ic_cursor_left"/>
+
+        <TextView
+            android:id="@+id/page_current_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp" />
+
+        <ImageButton
+            android:id="@+id/page_next"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:background="@drawable/ic_cursor_right"/>
+
+    </LinearLayout>
+
+</LinearLayout>
