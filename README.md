@@ -1,5 +1,5 @@
 # Description
-Real-time home monitoring application using raspberry pie 3B+ and AWS
+Real-time home monitoring application using raspberry pi 3B+ and AWS
 
 # Before To Use
 This Project is Personal Toy Project \
