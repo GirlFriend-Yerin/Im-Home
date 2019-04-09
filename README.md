@@ -4,6 +4,7 @@ Real-time home monitoring application using raspberry pie 3B+ and AWS
 # Before To Use
 This Project is Personal Toy Project
 All Information is stored in plain text in database of server
+Project is terminated.
 
 # Client
 - Anrdoid Level : min level - 26 , target - 27
